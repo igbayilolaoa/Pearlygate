@@ -1,0 +1,67 @@
+*{ 
+  padding: 0;
+  margin: 0;
+  font-family: Roboto Mono;
+}
+
+.navLogo {
+  background-image: url(/svg/logo.svg);
+}
+
+#section{
+  background-image: url(/svg/Hero\ image.svg);
+  background-position: center;
+  background-size: cover;
+  height: 35rem;
+}
+#section #sectionItem{
+  left: 5rem;
+}
+
+#section .h3{
+  letter-spacing: 0.3rem;
+}
+#section2 {
+  font-weight: bold;
+}
+#section2 .form, .card{
+  box-shadow: 5px 5px 5px rgb(182, 185, 189), -5px 5px 5px rgb(182, 185, 189);
+}
+#section2 .card-body:hover{
+  background: linear-gradient(to top, rgb(17, 17, 17), aliceblue);
+}
+/* #section2 .availableCities .card-text{
+  border: 1px solid red;
+  width: 18rem;
+  height: 20rem;
+  margin: auto;
+  display: none;
+} */
+
+#section4 {
+  background: linear-gradient(to right, #9747FF33, #ffff);
+}
+
+#section5 {
+  box-shadow: 5px 5px 5px rgb(182, 185, 189), -5px 5px 5px rgb(182, 185, 189);   
+}
+
+@media (max-width: 576px) {
+  #section{
+      height: 20rem;
+  }
+
+  .teamImg{
+      border: 2px solid;
+      transform: scale(0.6, 0.6);
+  }
+
+  #section .h3{
+      letter-spacing: 0;
+      font-size: 1rem;
+  }
+
+  #team-image{
+      width: 10rem;
+  }
+}
